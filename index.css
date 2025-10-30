@@ -850,8 +850,10 @@ img {
     font-size: 1.8em;
     margin-bottom: 20px;
     border-bottom: 2px solid #d1b38b;
-    display: inline-block;
+    /* display: inline-block; */
     padding-bottom: 5px;
+        text-align: center;
+
 }
 
 .menu-items {
@@ -922,6 +924,18 @@ img {
     color: #222;
 }
 
+.buy-btn {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #dc975773; /* красивий помаранчевий */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
 
-
-
+.buy-btn:hover {
+    background-color: #a5815b; /* темніший при наведенні */
+}
